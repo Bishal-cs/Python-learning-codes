@@ -10,4 +10,6 @@ dictionary = {}
 for key, value in list_of_tuples:
     dictionary[key] = value
 
-print("The convarted dictonary is :",dictionary)
+
+print("The original dictonary is :: ",list_of_tuples)
+print("The convarted dictonary is :: ",dictionary)

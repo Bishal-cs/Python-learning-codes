@@ -8,17 +8,20 @@ mirror_chars = {
     'W': 'W', 'X': 'X', 'Y': 'Y'
 }
 
+# Function to find mirror characters in a string
 def mirror_char(input_str):
     mirror = []
     for char in input_str:
-        if char == mirror_char:
-            mirror.append(char)
-    return
+        if char in mirror_chars:
+            mirror.append(mirror_chars[char])  # Append the mirrored character
+    return mirror
 
+# Get user input
 input_string = input("Enter a string: ")
 mirror_characters = mirror_char(input_string)
 
+# Print the result
 if mirror_characters:
-    print(f"Mirror characters in '{input_string}': {mirror_characters}")
+    print(f"Mirror characters in '{input_string}': {''.join(mirror_characters)}")
 else:
     print(f"No mirror characters found in '{input_string}'.")

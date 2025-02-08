@@ -16,11 +16,9 @@ def is_monotonic(arr):
     # If it's either non-increasing or non-decreasing, it's monotonic
     return is_increasing or is_decreasing
 
-
-arr1 = [1, 2, 2, 1]  
-arr2 = [5, 4, 3, 2]  
-arr3 = [1, 3, 2]     
-
-# Test the function with example arrays
-print(is_monotonic(arr1))  
-print(is_monotonic(arr2))  
+element = int(input("Enter the number of elements in the array :: "))
+arr1 = []
+for i in range(element):
+    print("Enter", i+1, "element of the array :: ",end=" ")
+    arr1.append(int(input()))
+print("The elements are :: ",is_monotonic(arr1))  

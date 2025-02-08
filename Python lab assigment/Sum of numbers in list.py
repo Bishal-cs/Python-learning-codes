@@ -25,7 +25,7 @@ num_list = [2, 4, 5, 9]
 
 result = sum_of_digits_in_list(num_list)
 
-print("Sum of digits for each number:", result)
+print("Sum of digits for each number ::", result)
 
 # Calculate and print the total sum of all digits manually
 total_sum = 0

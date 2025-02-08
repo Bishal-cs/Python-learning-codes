@@ -14,5 +14,5 @@ k = int(input("Enter the length :: "))
 # Call the function and store the result
 result = remove_tuples_of_length_k(nested_tuples, k)
 
-# Print the resulting list
+print("List before removing tuples of length", k, ":", nested_tuples)
 print("List after removing tuples of length", k, ":", result)
