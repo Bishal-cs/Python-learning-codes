@@ -1,5 +1,4 @@
 # Avarage of 3 numbers
-
 def avg(a, b, c):
     R = (a+b+c)/3
     return R 
