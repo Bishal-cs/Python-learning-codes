@@ -1,3 +1,10 @@
-from pytube import YouTube
-
-YouTube("https://youtube.com/clip/Ugkx0LQWdWUG77ctwQsAN3P49HDer9mtiGn3?si=-_ZOleo70CyfV1zx").streams.first().download()
+var=10
+for i in range(10):
+   for j in range(2,10,1):
+       if var%2==0:
+            continue
+            var+=1
+            var+=1
+       else:
+          var+=1
+print(var)
